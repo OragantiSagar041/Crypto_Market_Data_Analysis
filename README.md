@@ -11,6 +11,10 @@ The system establishes a high-frequency (60-second) data collection pipeline, st
 
 ---
 
+##  OUTPUT 
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/32c6ce44-5ed8-4dce-9d01-eba072bbda32" />
+
+
 ## 🛠️ Technical Stack
 
 | Tool/Technology | Role in the Project |
@@ -76,6 +80,8 @@ dataset = pd.read_sql_query(sql_query, conn)
 
 
 
-<img width="788" height="600" alt="image" src="https://github.com/user-attachments/assets/3b42b1c7-7604-47d4-8d2b-6b6cf237f766" />
 
 conn.close()
+
+
+
