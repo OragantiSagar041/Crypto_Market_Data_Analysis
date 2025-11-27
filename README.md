@@ -71,4 +71,11 @@ conn = sqlite3.connect(DB_PATH)
 sql_query = f"SELECT * FROM {TABLE_NAME} ORDER BY Capture_Time ASC;"
 dataset = pd.read_sql_query(sql_query, conn)
 # Data type transformation applied here (e.g., to Capture_Time)
+
+
+
+
+
+<img width="788" height="600" alt="image" src="https://github.com/user-attachments/assets/3b42b1c7-7604-47d4-8d2b-6b6cf237f766" />
+
 conn.close()
